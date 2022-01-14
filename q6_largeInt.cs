@@ -54,7 +54,7 @@ public class Largint{
             Console.Write(">>> The Second largest element in the array is :  {0} \n\n", secondLargest +" <<<");
             Program.menu();}
         
-        catch{Console.WriteLine("invalid input please try again");
+        catch{Console.WriteLine("Your input is Invalid, please try again");
         Largint1();
         }
             }

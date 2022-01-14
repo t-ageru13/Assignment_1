@@ -8,7 +8,7 @@ public class palindrom{
 public static void palindrom1(){
                 int length;
             string revers= "";
-            Console.WriteLine("Inpute Your String");
+            Console.WriteLine("Please Enter your String");
             string input = Console.ReadLine();
             string cap ="";
             for (int i=0;i<input.Length;i++){
@@ -30,10 +30,10 @@ public static void palindrom1(){
             
             
             if(cap==revers){
-                Console.WriteLine("\n it is palindrome String");
+                Console.WriteLine("\n Your Input is palindrome String");
                 menu();
             }
-            else {Console.WriteLine("\nit is not palindrome String ");
+            else {Console.WriteLine("\nThis One is not palindrome String ");
             Program.menu();}
             }
 }}

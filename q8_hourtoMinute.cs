@@ -26,7 +26,7 @@ public class hourminute{
             Console.WriteLine($"\n>>> Angle between {hours} hour and {minutes} minute is {diff} degrees <<<");
             Program.menu();
             }
-            catch{Console.WriteLine("invalid input please try again\n ");
+            catch{Console.WriteLine("Your input is Invalid, please try again\n ");
             hourminute1();
             
             }

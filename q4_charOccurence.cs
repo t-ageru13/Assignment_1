@@ -7,9 +7,9 @@ namespace Assignment_1
 public class wordoccurence{
 
     public static void wordoccurence1(){
-                Console.WriteLine("Please Input somting");
+                Console.WriteLine("Please can you Enter what you need");
                 string input = Console.ReadLine();
-                Console.WriteLine("Now Insert the word you want to search");
+                Console.WriteLine("Now Enter the word you want to search");
                 string find = Console.ReadLine();
                 int counter = 0;
                 foreach(char item in input){
@@ -18,7 +18,7 @@ public class wordoccurence{
                     }
                     
                 }
-                Console.WriteLine("\nit occures "+counter+" times \n");
+                Console.WriteLine("\nIt occures "+counter+" times \n");
                 Program.menu();
             }
 }}

@@ -7,7 +7,7 @@ public class Revers{
 public static void Reverss(){
             int length;
             string revers= "";
-            Console.WriteLine("Inpute Your String");
+            Console.WriteLine("Please Enter your String");
             string input = Console.ReadLine();
 
             length = input.Length -1;
@@ -17,7 +17,7 @@ public static void Reverss(){
                 length --;
 
             }
-            Console.WriteLine("\n\n>>> the reverse is " +revers);
+            Console.WriteLine("\n\n>>> This is reversed string " +revers);
             Program.menu();
             }
 

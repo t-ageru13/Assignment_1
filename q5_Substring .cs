@@ -8,7 +8,7 @@ public class Substring{
 
 public static void Substring1(){  
                 
-                Console.WriteLine("input string");
+                Console.WriteLine("Please Enter your String");
                 string str = Console.ReadLine();
                 int n = str.Length; 
                 for (int len = 1; len <= n; len++)

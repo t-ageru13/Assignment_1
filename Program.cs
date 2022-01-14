@@ -9,7 +9,7 @@ namespace Assignment_1
            menu();
         }
         public static void menu(){
-                Console.WriteLine("\n1. Revers String\n2. palindrome String\n3. word Order\n4. word Occurence\n5. Substring\n6. 2nd largest integer\n7. Arraye deminsion\n8. angel of hour and minute\n9. Exit");
+                Console.WriteLine("Please choice what you went to do with \n1. To reverse string\n2. To find String palindrome\n3. To see reversed word Order\n4. To count character Occurence\n5. To find Substring\n6. To find second largest intiger\n7. To convert 2D array in to 1D\n8. To find an angel b/n hour and minute\n9. To Exit");
            string N = Console.ReadLine();
            if (N=="1"){
                Revers.Reverss();
@@ -20,7 +20,7 @@ namespace Assignment_1
            }
             else{
                 if (N == "3"){
-                    wordorder.Wordorder1();
+                    wordOrder.wordOrders();
                 }
                 else{
                     if (N == "4"){
@@ -36,7 +36,7 @@ namespace Assignment_1
                     }
                     else{
                         if(N=="7"){
-                            Arraydem.Arraydem1();
+                            Arraydem.conversion();
                         }
                         else{
                             if(N=="8"){
